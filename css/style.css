@@ -1,0 +1,238 @@
+/*css common start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+/*css common end*/
+
+/*css header start*/
+header{
+    padding: 20px 0;
+    border-bottom: 1px solid #C4C4C4B0;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+.logo{
+    margin-top: 13px;
+    width: 13%;
+    /*border: 1px solid blue;*/
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+    /*border: 1px solid blue;*/
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 45px;
+    padding: 2px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/*css header end*/
+
+/*css banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+    width: 100%;
+}
+/*css banner end*/
+
+/*perfect start*/
+.perfect{
+    padding: 80px 0;
+}
+.container_2{
+    margin: 0 auto;
+    width: 80%;
+    /*border-bottom: 1px solid red;*/
+    overflow: hidden;
+}
+.p_content{}
+.c_tag{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #B4AD9E;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 20px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_p{
+    margin: 0;
+    line-height: 25px;
+}
+.mb_40{
+    margin-bottom: 40px;
+}
+/*css perfect end*/
+
+/*css blog_1 start*/
+.blog{
+    padding: 80px 0 20px;
+}
+.b_content{
+    overflow: hidden;
+}
+.single{
+    width: 47%;
+    /*border: 1px solid;*/
+    float: left;
+    margin-bottom: 60px;
+}
+.single:nth-child(even){
+    margin-left: 6%;
+}
+
+.s_img{
+    margin-bottom: 25px;
+}
+.s_img img{
+    width: 100%;
+}
+/*css blog_1 end*/
+
+/*css newsletter start*/
+.newsletter{
+    background-color: #F0F0F0;
+}
+.nl_wrapper{
+    padding: 70px 0;
+    text-align: center;
+}
+.nl_wrapper h1{
+    margin-bottom: 85px;
+    color: #333333;
+    font-size: 34px;
+    font-weight: 500;
+}
+.nl_wrapper input{
+    width: 27%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    background-color: #F0F0F0;
+}
+.email_holder::-moz-placeholder {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px; 
+ }
+ .email_holder::-webkit-input-placeholder {
+    font-family: 'Playfair Display', serif; 
+    font-size: 16px;
+ }
+/*css newsletter end*/
+
+/*css blog_2 start*/
+.load{
+    text-align: center;
+    margin: 50px 0;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    transition: 0.3s;
+}
+.load button:hover{
+    background-color: #626262;
+    color: #FFFFFF;
+}
+/*css blog_2 end*/
+
+/*css footer start*/
+footer{
+    padding-right: 20px 0;
+    background-color: #F0F0F0;
+}
+.terms{
+    width: 25%;
+    /*border: 1px solid;*/
+    float: left;
+}
+.terms ul{
+    padding: 0;
+    overflow: hidden;
+}
+.terms ul li, .follow ul li{
+    list-style: none;
+    float: left;
+}
+.terms ul li a{
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+.terms ul li:first-child a{
+    margin-left: 0;
+}
+.follow{
+    width: 20%;
+    /*border: 1px solid;*/
+    float: right;
+}
+.follow ul{
+    float: right;
+}
+/*.follow ul li{
+    list-style: none;
+    float: left;*/
+}
+.follow ul li span{
+    margin: 0 15px;
+    font-size: 16px;
+    color: #000000;
+}
+.follow ul li a{
+    margin: 0 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.follow ul li:last-child a{
+    margin-right: 0;
+}
+/*css footer end*/
+
