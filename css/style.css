@@ -129,33 +129,50 @@ header{
 
 /*css newsletter start*/
 .newsletter{
+    padding: 70px 0;
     background-color: #F0F0F0;
 }
 .nl_wrapper{
-    padding: 70px 0;
     text-align: center;
 }
-.nl_wrapper h1{
-    margin-bottom: 85px;
+.form_h1{
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-weight: 400; 
     color: #333333;
-    font-size: 34px;
-    font-weight: 500;
 }
-.nl_wrapper input{
-    width: 27%;
+.sign_up{
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+}
+.sign_up input{
+    padding-left: 5px;
+    padding-right: 45px; 
+    width: 345px;
+    height: 45px;
     border: none;
-    outline: none;
-    border-bottom: 1px solid #000000;
-    background-color: #F0F0F0;
-}
-.email_holder::-moz-placeholder {
+    border-bottom: 1px solid #333333;
     font-family: 'Playfair Display', serif;
-    font-size: 16px; 
- }
- .email_holder::-webkit-input-placeholder {
-    font-family: 'Playfair Display', serif; 
     font-size: 16px;
- }
+    color: #626262;
+    background-color: transparent;
+}
+.sign_up input:focus{
+    outline: 0;
+}
+.sign_up button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 0;   
+}
+.sign_up button:focus{
+    outline: 0;
+}
 /*css newsletter end*/
 
 /*css blog_2 start*/
