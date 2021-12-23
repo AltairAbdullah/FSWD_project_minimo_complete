@@ -159,9 +159,6 @@ header{
     color: #626262;
     background-color: transparent;
 }
-.sign_up input:focus{
-    outline: 0;
-}
 .sign_up button{
     background: transparent;
     border: none;
